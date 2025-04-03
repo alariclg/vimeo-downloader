@@ -3,9 +3,7 @@
   "specifiers": {
     "jsr:@std/assert@1": "1.0.12",
     "jsr:@std/internal@^1.0.6": "1.0.6",
-    "npm:@vimeo/vimeo@^3.0.3": "3.0.3",
-    "npm:vimeo@*": "2.3.1",
-    "npm:vimeo@^2.3.1": "2.3.1"
+    "npm:@vimeo/vimeo@^3.0.3": "3.0.3"
   },
   "jsr": {
     "@std/assert@1.0.12": {
@@ -119,18 +117,11 @@
         "querystringify",
         "requires-port"
       ]
-    },
-    "vimeo@2.3.1": {
-      "integrity": "sha512-IdQ5YZ+v6N83N78FG7XHp/d91gKMRs/OIkldrjXeP4/RJ/wIjG9bgce3YHFvOKgn+CEOi/Paix1giXrnQvRxmw==",
-      "dependencies": [
-        "tus-js-client"
-      ]
     }
   },
   "workspace": {
     "dependencies": [
-      "jsr:@std/assert@1",
-      "npm:vimeo@^2.3.1"
+      "jsr:@std/assert@1"
     ],
     "packageJson": {
       "dependencies": [

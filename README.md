@@ -18,4 +18,3 @@ To start the script, run the following command:
 ```sh
 deno run run-allow-all
 ```
-# vimeo-downloader

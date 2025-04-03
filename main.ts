@@ -73,7 +73,6 @@ const runner = async () => {
               );
 
               const response = await fetch(downladLink.link);
-
               const blob = await response.blob();
 
               fs.writeFileSync(
